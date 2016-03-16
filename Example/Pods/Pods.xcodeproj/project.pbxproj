@@ -14,7 +14,6 @@
 		5E40E5329862366BE2210E77F9E0B7B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		601EC14C2F02E7BA496300CD05C9111E /* MyTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D94527186EA1BF02BFB51049FF2A2060 /* MyTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63BB80A8596612DADB56CE141F333E5A /* Pods-MyTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7320F1F720BE38C68CA77F15A91C344 /* Pods-MyTextField_Example-dummy.m */; };
-		6641B56825D780B9D76650EC6F0E1260 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 319942934ABA520F18A8B4843F2289C7 /* ReplaceMe.m */; };
 		8BBDEF164A28D1789FA1F6FFE17251B2 /* MyTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A642F9C2BD8741E6DAFBFF01DB96B1E /* MyTextField-dummy.m */; };
 		9769EF9D3741D5CD314ABCCDC50D4DD9 /* Pods-MyTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53BB417EFED0F6CB3F5638B662A2E032 /* Pods-MyTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A931FF81B6074FBC62F16AB7F669DAD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
@@ -57,7 +56,6 @@
 		2740DF9C3E3DA9A91D0340BF609645B7 /* Pods-MyTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2964079EDAA35F72DB7BFD895E5BFC8B /* Pods-MyTextField_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyTextField_Tests-resources.sh"; sourceTree = "<group>"; };
 		298809821C331A7EA76BA0C1E9292FE5 /* MyTextField.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTextField.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		319942934ABA520F18A8B4843F2289C7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		3302D54604B87625B91C43E4D441C4A1 /* MyTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MyTextField.modulemap; sourceTree = "<group>"; };
 		35324874EAAB1D5390EDC360C11713B9 /* Pods-MyTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MyTextField_Example.modulemap"; sourceTree = "<group>"; };
 		3A642F9C2BD8741E6DAFBFF01DB96B1E /* MyTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyTextField-dummy.m"; sourceTree = "<group>"; };
@@ -223,7 +221,6 @@
 			children = (
 				1A590E3C1C992E2600FC513E /* CustomView.h */,
 				1A590E3D1C992E2600FC513E /* CustomView.m */,
-				319942934ABA520F18A8B4843F2289C7 /* ReplaceMe.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -408,7 +405,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BBDEF164A28D1789FA1F6FFE17251B2 /* MyTextField-dummy.m in Sources */,
-				6641B56825D780B9D76650EC6F0E1260 /* ReplaceMe.m in Sources */,
 				1A590E3F1C992E2600FC513E /* CustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,7 @@
 //
 
 #import "PRViewController.h"
-
+#import <MyTextField/CustomView.h>
 @interface PRViewController ()
 
 @end
@@ -17,7 +17,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    CustomView *txtField = [[CustomView alloc]initWithFrame:CGRectMake(0, 50, 300, 50) withPlaceHolder:@"Placeholder"];
+    [self.view addSubview:txtField];
 }
 
 - (void)didReceiveMemoryWarning
