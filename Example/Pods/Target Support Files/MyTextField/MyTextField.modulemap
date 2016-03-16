@@ -1,0 +1,6 @@
+framework module MyTextField {
+  umbrella header "MyTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

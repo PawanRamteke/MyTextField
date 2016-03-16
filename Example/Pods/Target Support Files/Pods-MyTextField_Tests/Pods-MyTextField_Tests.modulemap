@@ -1,0 +1,6 @@
+framework module Pods_MyTextField_Tests {
+  umbrella header "Pods-MyTextField_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

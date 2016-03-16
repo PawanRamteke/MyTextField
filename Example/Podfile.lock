@@ -1,0 +1,14 @@
+PODS:
+  - MyTextField (0.1.0)
+
+DEPENDENCIES:
+  - MyTextField (from `../`)
+
+EXTERNAL SOURCES:
+  MyTextField:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MyTextField: 5c5d46a63d48f2c90c51e06b1c10a4e6d755eb71
+
+COCOAPODS: 0.39.0
